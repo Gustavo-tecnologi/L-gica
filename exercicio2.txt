@@ -1,0 +1,31 @@
+Algoritmo "exercicio2"
+Var A: vetor[1..10] de inteiro
+B: vetor[1..10] de inteiro
+C: vetor[1..10] de inteiro
+Cont : inteiro
+
+
+Inicio
+
+Cont <- 1
+
+     Enquanto (Cont <= 1) Faca
+     Escreval("Digite o numero primeiro valor: ")
+      Leia(A[Cont])
+      Cont <- Cont + 1
+      Fimenquanto
+
+
+      Cont<- 1
+      Enquanto (Cont <= 1) Faca
+      Escreval("Digite o numero do segundo valor: ")
+      Leia(B[Cont])
+      Cont <- Cont + 1
+      Fimenquanto
+
+
+      Para Cont De 1 Ate 1 Faca
+      C[Cont] <- A[Cont] + B[Cont]
+      Escreval(" A soma é:  ",C[Cont])
+      Fimpara
+fimalgoritmo

@@ -1,0 +1,27 @@
+Algoritmo "exercicio4 "
+
+var
+mortes, casos, divisao, porcentagem : vetor[1..2] de real
+pais : vetor[1..2] de caracter
+contador : inteiro
+
+inicio
+
+para contador de 1 ate 2 faca
+escreval ("nome do país: ")
+leia (pais[contador])
+escreval ("numero de mortes: ")
+leia (mortes[contador])
+escreval ("numero de casos: ")
+leia (casos[contador])
+
+divisao[contador] <- mortes[contador]/casos[contador]
+porcentagem[contador] <- divisao[contador]*100
+fimpara
+
+para contador de 1 ate 2 faca
+escreval ("País: ",pais[contador]," - Mortes: ", mortes[contador]," - Casos: ", casos[contador])
+escreval ("Porcentagem de mortes/casos: ", porcentagem[contador],"%")
+fimpara
+
+fimalgoritmo

@@ -1,0 +1,25 @@
+Algoritmo "Salvando o bart  "
+
+
+
+
+Var
+
+    numero , i : inteiro
+
+
+
+
+Inicio
+
+
+    escreval ("digite o numero de vezes desejado")
+    leia (numero)
+    
+    para i <- 1 ate 1000 faca
+    escreval ("PROA 4.0  ",i)
+    
+    fimpara
+
+
+Fimalgoritmo
